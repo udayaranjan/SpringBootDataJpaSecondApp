@@ -16,6 +16,16 @@ public class Product {
 	{
 		
 	}
+	
+	
+
+	public Product(String prodCode, Double prodCost) {
+		super();
+		this.prodCode = prodCode;
+		this.prodCost = prodCost;
+	}
+
+
 
 	public Product(Integer prodId, String prodCode, Double prodCost) {
 		super();

@@ -17,6 +17,7 @@ public class ConsoleRunner implements CommandLineRunner{
 		repo.save(new Product(10,"A",3.3));
 		repo.save(new Product(11,"B",4.3));
 		repo.save(new Product(12,"C",5.3));
+		repo.save(new Product(12,"E",5.9));
 	}
-
+       
 }
